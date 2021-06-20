@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "daibot"
+version = "0.1.0"
+description = "A rolling bot"
+authors = ["Kane Blueriver <kxxoling@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+python-telegram-bot = "^13.6"
+isort = "^5.9.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+pytest = "^6.2.4"
+ipython = "^7.24.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
